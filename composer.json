@@ -1,0 +1,19 @@
+{
+    "name": "dawid/untitled",
+    "autoload": {
+        "psr-4": {
+            "Restaurants\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dawiher699",
+            "email": "dawidherc@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-dom": "*",
+        "nesbot/carbon": "^2.59",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
