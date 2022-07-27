@@ -8,7 +8,7 @@ $dotenv->load();
 $file = fopen($_ENV['INPUT_PATH'], 'rb');
 if(!$file) {
     echo "Following file read error happened";
-    echo error_get_last();
+    print_r(error_get_last());
     die();
 }
 $feed = new FeedObject($_ENV['OUTPUT_PATH']);
