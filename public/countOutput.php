@@ -5,6 +5,7 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__."/..");
 $dotenv->load();
 $file = fopen($_ENV['OUTPUT_PATH'], 'rb');
 if(!$file) {
+    echo "Following file read error happened";
     echo error_get_last();
     die();
 }

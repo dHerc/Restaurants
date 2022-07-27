@@ -33,7 +33,7 @@ class FeedObject
     }
 
     /**
-     * @throws \Exception
+     * @throws \DOMException
      */
     public function handleLine(string $line): void
     {
@@ -60,7 +60,7 @@ class FeedObject
     }
 
     /**
-     * @throws \Exception
+     * @throws \DOMException
      */
     private function finish(): void
     {
